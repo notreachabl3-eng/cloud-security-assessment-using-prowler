@@ -178,25 +178,22 @@ AWS-Prowler-Cloud-Security-Assessment/
 │
 ├── README.md
 │
-├── Report/
-│   └── Prowler_Assessment_Report.pdf
+├── report/
+│   └── prowler-cspm.pdf
 │
-├── Screenshots/
-│   ├── AWS_Architecture.png
-│   ├── IAM_Configuration.png
-│   ├── Initial_Assessment.png
-│   ├── Prowler_Dashboard.png
-│   ├── Security_Group_Remediation.png
-│   ├── MFA_Enabled.png
-│   ├── S3_Public_Access_Block.png
-│   ├── Reassessment.png
-│   └── Before_vs_After.png
+├── screenshots/
+│   ├── architecture.png
+│   ├── aws.png
+│   ├── prowler.png
+│   ├── assessment1.png
+│   ├── assessment2.png
+│   └── result-comparison.png
 │
-├── Commands/
-│   ├── Prowler_Commands.md
-│   └── AWS_CLI.md
+├── commands/
+│   ├── prowler-commands.md
+│   └── aws-cli.md
 │
-└── Documentation/
+└── risk-acceptance.md
 ```
 
 ---
@@ -205,49 +202,43 @@ AWS-Prowler-Cloud-Security-Assessment/
 
 #### AWS Environment
 
-*(Insert AWS Architecture Diagram)*
+![Lab Architecture](screenshots/architecture.png)
+
+---
+
+#### AWS Setup
+
+![AWS CLI Configuration](screenshots/aws1.png)
+![AWS CLI Configuration](screenshots/aws2.png)
+![AWS CLI Configuration](screenshots/aws3.png)
+
+---
+
+#### Prowler Setup
+
+![Prowler Configuration](screenshots/prowler1.png)
+![Prowler Configuration](screenshots/prowler2.png)
 
 ---
 
 #### Initial Assessment
 
-*(Insert Initial Prowler Dashboard)*
+![Initial Assessment](screenshots/assessment1.png)
+![Initial Assessment](screenshots/assessment1-1.png)
 
 ---
 
-#### IAM Security Findings
+#### Final Assessment
 
-*(Insert IAM Findings Screenshot)*
-
----
-
-#### Security Group Remediation
-
-*(Insert Before/After Screenshot)*
+![Final Assessment](screenshots/assessment2.png)
+![Final Assessment](screenshots/assessment2-1.png)
 
 ---
 
-#### MFA Enabled
+#### Result Comparison
 
-*(Insert IAM MFA Screenshot)*
-
----
-
-#### S3 Public Access Block
-
-*(Insert Screenshot)*
-
----
-
-#### Reassessment
-
-*(Insert Reassessment Dashboard)*
-
----
-
-#### Before vs After Comparison
-
-*(Insert Comparison Chart)*
+![Result Comparison](screenshots/result-comparison.png)
+![Result Comparison Graph](screenshots/result-graph.png)
 
 ---
 
