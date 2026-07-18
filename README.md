@@ -1,4 +1,4 @@
-# AWS Cloud Security Assessment using Prowler
+# Cloud Security Assessment using Prowler
 
 ### Overview
 
