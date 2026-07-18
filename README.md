@@ -238,7 +238,7 @@ AWS-Prowler-Cloud-Security-Assessment/
 #### Result Comparison
 
 ![Result Comparison](screenshots/result-comparison.png)
-![Result Comparison Graph](screenshots/result-graph.png)
+![Result Comparison Graph](screenshots/comparison-graph.png)
 
 ---
 
